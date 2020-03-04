@@ -13,6 +13,11 @@
 		AC0F348E240F2ED2006C5F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0F348C240F2ED2006C5F45 /* Main.storyboard */; };
 		AC0F3490240F2ED3006C5F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0F348F240F2ED3006C5F45 /* Assets.xcassets */; };
 		AC0F3493240F2ED3006C5F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0F3491240F2ED3006C5F45 /* LaunchScreen.storyboard */; };
+		AC0F349B240F32B3006C5F45 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F349A240F32B3006C5F45 /* RedViewController.swift */; };
+		AC0F349D240F32E3006C5F45 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F349C240F32E3006C5F45 /* GreenViewController.swift */; };
+		AC0F349F240F32F0006C5F45 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F349E240F32F0006C5F45 /* BlueViewController.swift */; };
+		AC0F34A1240F387E006C5F45 /* BoardListControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F34A0240F387E006C5F45 /* BoardListControllerTableViewController.swift */; };
+		AC0F34A3240F43A2006C5F45 /* WriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F34A2240F43A2006C5F45 /* WriteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		AC0F348F240F2ED3006C5F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC0F3492240F2ED3006C5F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0F3494240F2ED3006C5F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0F349A240F32B3006C5F45 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		AC0F349C240F32E3006C5F45 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		AC0F349E240F32F0006C5F45 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		AC0F34A0240F387E006C5F45 /* BoardListControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListControllerTableViewController.swift; sourceTree = "<group>"; };
+		AC0F34A2240F43A2006C5F45 /* WriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				AC0F348F240F2ED3006C5F45 /* Assets.xcassets */,
 				AC0F3491240F2ED3006C5F45 /* LaunchScreen.storyboard */,
 				AC0F3494240F2ED3006C5F45 /* Info.plist */,
+				AC0F349A240F32B3006C5F45 /* RedViewController.swift */,
+				AC0F349C240F32E3006C5F45 /* GreenViewController.swift */,
+				AC0F349E240F32F0006C5F45 /* BlueViewController.swift */,
+				AC0F34A0240F387E006C5F45 /* BoardListControllerTableViewController.swift */,
+				AC0F34A2240F43A2006C5F45 /* WriteController.swift */,
 			);
 			path = TabMenuApp;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0F349B240F32B3006C5F45 /* RedViewController.swift in Sources */,
 				AC0F348B240F2ED2006C5F45 /* ViewController.swift in Sources */,
 				AC0F3487240F2ED2006C5F45 /* AppDelegate.swift in Sources */,
 				AC0F3489240F2ED2006C5F45 /* SceneDelegate.swift in Sources */,
+				AC0F349F240F32F0006C5F45 /* BlueViewController.swift in Sources */,
+				AC0F34A1240F387E006C5F45 /* BoardListControllerTableViewController.swift in Sources */,
+				AC0F349D240F32E3006C5F45 /* GreenViewController.swift in Sources */,
+				AC0F34A3240F43A2006C5F45 /* WriteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
